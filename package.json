@@ -1,8 +1,5 @@
 {
-  "name": "dolar-hoy-js",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@es-js/terminal": "^1.0.0"
-  }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.js" }
+  ]
 }
