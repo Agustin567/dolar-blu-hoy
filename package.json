@@ -1,0 +1,7 @@
+{
+  "name": "dolar-hoy",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.js dist/index.js && echo '<!DOCTYPE html><html lang=\"es\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><title>Dolar Hoy</title><link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@es-js/terminal/dist/style.css\"><script type=\"importmap\">{\n\"imports\": {\n\"@es-js/sandbox/runtime\": \"https://cdn.jsdelivr.net/npm/@es-js/sandbox@0.0.21/runtime/+esm\",\n\"@es-js/\": \"https://esm.run/@es-js/\",\n\"npm/\": \"https://cdn.jsdelivr.net/npm/\",\n\"@es-js/terminal\": \"https://cdn.jsdelivr.net/npm/@es-js/terminal/dist/terminal.es.js\"\n}\n}</script></head><body><div id=\"terminal\" style=\"height:100vh\"></div><script type=\"module\" src=\"./index.js\"></script></body></html>' > dist/index.html"
+  }
+}
